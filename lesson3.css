@@ -1,0 +1,51 @@
+body
+{
+    font-size: 24px;
+}
+p:first-line,
+span:first-line
+{
+    font-size: 300%;
+}
+p:first-letter,
+span::first-letter
+{
+    color: #ff5395;
+}
+#first
+{
+    color: blueviolet;
+}
+.class1
+  {
+      color: #ffaa00;
+  }
+#second.class1
+{
+    font-weight: bold;
+}
+.class1.super
+{
+    text-decoration: underline;
+}
+#third.class1.super {
+    font-style: italic;
+}
+div[class="class2"]
+{
+    color: darkred;
+}
+div[class="class2 super2"]
+{
+    border: 1px dashed #ffaa00;
+}
+ .parent .child
+{
+    aborder: 1px solid red;
+}
+
+ol.parent li.child
+{
+    border: 1px solid orangered;
+}
+
